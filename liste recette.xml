@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<recette_avec_champignons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="C:\Users\Guillaume\Desktop\liste_champignons.xsd">
+
+
+<champignons type="general">
+  <recette >
+    <nom_recette>Velouté de champignons</nom_recette>
+    <durée_recette>50 min</durée_recette>
+    <nombre_de_personnes>3 personnes</nombre_de_personnes>
+    <photo_recette >
+      <lien>http://www.marmiton.org/recettes/recette_veloute-de-champignons_26749.aspx#d2282-p1</lien>
+    </photo_recette>
+    <ingredients>
+      <br/>
+      - 3 cuillere à soupe de beurre
+      <br/>
+      -1 oignon
+      <br/>
+      -250g de champignons
+      <br/>
+      -2 cuillères a soupe de farine
+      <br/>
+      -1/4 l de bouillon ou d'eau
+      <br/>
+      -1/2l de lait
+      <br/>
+      -1 citron
+      <br/>
+      -2 cuillères à soupe de crème fraiche
+      <br/>
+      -1 cuillère a soupe de persil haché
+      <br/>
+      -sel
+      <br/>
+      -poivre
+      <br/>
+    </ingredients>
+    <preparation_etapes>
+    <br/>
+      -Faire fondre dans une casserole 3 cuillères à soupe de beurre.
+      <br/>
+      -Ajouter un petit oignon haché et les champignons de Paris coupés en tout petits morceaux.
+      <br/>
+      -Saler, poivrer, saupoudrer d’une cuillère à soupe de persil haché.
+      <br/>
+      -Remuer bien les champignons dans le beurre chaud. Couvrir et laisser cuire à feu doux 1/4 heure.
+      <br/>
+      -Ajouter alors 2 cuillères à soupe de farine en remuant sans cesse. Ajouter 1/4 litre de bouillon (ou d’eau) et 1/2 litre de lait.
+      <br/>
+      -Faire cuire à feu doux en remuant de temps en temps.
+      <br/>
+      -Lorsque le potage commence à bouillir, baisser le feu et laisser cuire à découvert encore 1/4 d’heure.
+      <br/>
+      -Quelques minutes avant de servir ajouter le jus d’un citron puis 2 cuillères à soupe de crème fraîche.
+      <br/>
+    
+    </preparation_etapes>
+  </recette>
+</champignons>
+</recette_avec_champignons>

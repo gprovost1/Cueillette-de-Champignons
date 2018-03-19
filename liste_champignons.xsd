@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+  
+  <xsd:element name="nom_recette" type="xsd:string"/>
+  <xsd:element name="durée_recette" type="xsd:string"/>
+  <xsd:element name="nombre_de_personnes" type="xsd:string"/>
+  <xsd:element name="ingredients" type="xsd:string"/>
+  <xsd:element name="preparation_etapes" type="xsd:string"/>
+  <xsd:element name="lien" type="xsd:anyURI"/>
+  
+  <xsd:element name="photo_recette ">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="lien"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="recette  ">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="nom_recette"/>
+        <xsd:element ref="durée_recette"/>
+        <xsd:element ref="nombre_de_personnes"/>
+        <xsd:element ref="photo_recette "/>
+        <xsd:element ref="ingredients"/>
+        <xsd:element ref="preparation_etapes"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="champignons" >
+    <xsd:complexType>
+      <xsd:simpleContent>
+        <xsd:extension base="xsd:string">
+          <xsd:attribute name="type">
+          <xsd:simpleType>
+          <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="general "/>
+          <xsd:enumeration value="girolle "/>
+          <xsd:enumeration value="pied_bleu "/>
+          <xsd:enumeration value="rose_des_pres"/>
+          <xsd:enumeration value="cepe "/>
+          <xsd:enumeration value="coprin "/>
+          <xsd:enumeration value="coulemelle "/>
+          <xsd:enumeration value="pied_de_mouton"/>
+          <xsd:enumeration value="amanites_des_Cesars "/>
+          <xsd:enumeration value="lactaire_delicieux"/>
+          <xsd:enumeration value=" trompette_de_la_mort"/>
+          <xsd:enumeration value="bolet"/>
+          <xsd:enumeration value="chanterelle"/>
+          <xsd:enumeration value="truffe_noire "/>
+          <xsd:enumeration value="lactaire_sanguin "/>
+          <xsd:enumeration value="champignon_de_paris"/>
+          </xsd:restriction>
+          </xsd:simpleType>
+          </xsd:attribute>
+        </xsd:extension>
+      </xsd:simpleContent>
+      <xsd:sequence>
+        <xsd:element ref="recette"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
+
